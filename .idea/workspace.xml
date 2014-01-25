@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdd67b05-45f3-4a2c-bb5a-9f7f5121c1dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/banner-graphic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_3_2_3_RELEASE.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appengine-web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appengine-web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="poi.iws" />
@@ -133,11 +129,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.jspx" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="footer.jspx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.jspx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="18" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.76502734" vertical-offset="30" max-vertical-offset="630">
+            <state line="30" column="18" selection-start="1123" selection-end="1123" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="630">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="standard.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/standard.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="14" selection-start="862" selection-end="862" vertical-scroll-proportion="0.62570465" vertical-offset="450" max-vertical-offset="5670">
+              <folding>
+                <marker date="1390680583261" expanded="true" signature="371:420" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,7 +152,7 @@
       <file leaf-file-name="messages.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/i18n/messages.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="84" selection-start="184" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1560">
+            <state line="6" column="17" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1560">
               <folding />
             </state>
           </provider>
@@ -166,9 +173,10 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jspx" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/i18n/messages.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/appengine-web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.jspx" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/i18n/messages.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/styles/standard.css" />
       </list>
     </option>
   </component>
@@ -306,6 +314,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -652,7 +664,7 @@
       <updated>1390670610345</updated>
       <workItem from="1390670612899" duration="814000" />
       <workItem from="1390672895336" duration="971000" />
-      <workItem from="1390673883126" duration="6261000" />
+      <workItem from="1390673883126" duration="6550000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1390670750231</created>
@@ -670,11 +682,15 @@
       <created>1390677728100</created>
       <updated>1390677728100</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Different image and text pointing to authoring team">
+      <created>1390680384978</created>
+      <updated>1390680384978</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8046000" />
+    <option name="totallyTimeSpent" value="8335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1055" extended-state="6" />
@@ -699,7 +715,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26805252" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932165" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -729,7 +745,8 @@
     <MESSAGE value="Entities and web layout" />
     <MESSAGE value="Spring 3.2.6. upgradet" />
     <MESSAGE value="3.2.6. Spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.2.6. Spring" />
+    <MESSAGE value="Different image and text pointing to authoring team" />
+    <option name="LAST_COMMIT_MESSAGE" value="Different image and text pointing to authoring team" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -838,15 +855,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/i18n/messages.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="84" selection-start="184" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1560">
+        <state line="6" column="17" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1560">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.jspx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="18" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.76502734" vertical-offset="30" max-vertical-offset="630">
+        <state line="30" column="18" selection-start="1123" selection-end="1123" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="630">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/standard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="14" selection-start="862" selection-end="862" vertical-scroll-proportion="0.62570465" vertical-offset="450" max-vertical-offset="5670">
+          <folding>
+            <marker date="1390680583261" expanded="true" signature="371:420" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
