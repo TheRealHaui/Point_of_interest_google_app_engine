@@ -1,0 +1,10 @@
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-01-25 18:21:57
+project --topLevelPackage com.ase.poi
+jpa setup --provider DATANUCLEUS --database GOOGLE_APP_ENGINE
+entity jpa --class ~.domain.pointOfInterest 
+field string --fieldName name --notNull
+field number --type java.lang.Double --fieldName latitude --notNull 
+field number --type java.lang.Double --fieldName longitude --notNull 
+field string --fieldName creator --notNull 
+field string --fieldName description --notNull 
+field string --fieldName category --notNull 
