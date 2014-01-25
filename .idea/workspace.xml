@@ -70,7 +70,7 @@
       <file leaf-file-name="appengine-web.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/appengine-web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="35" selection-start="565" selection-end="565" vertical-scroll-proportion="0.20293123" vertical-offset="0" max-vertical-offset="887">
+            <state line="4" column="14" selection-start="197" selection-end="197" vertical-scroll-proportion="0.06764374" vertical-offset="0" max-vertical-offset="887">
               <folding />
             </state>
           </provider>
@@ -660,7 +660,7 @@
       <workItem from="1390670612899" duration="814000" />
       <workItem from="1390672895336" duration="971000" />
       <workItem from="1390673883126" duration="7853000" />
-      <workItem from="1390682031920" duration="977000" />
+      <workItem from="1390682031920" duration="1616000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1390670750231</created>
@@ -706,11 +706,15 @@
       <created>1390682980404</created>
       <updated>1390682980404</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Renamed application for Google App Engine because of problems with Google App Engine.&#10;">
+      <created>1390683012600</created>
+      <updated>1390683012600</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10615000" />
+    <option name="totallyTimeSpent" value="11254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1071" extended-state="6" />
@@ -740,7 +744,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17891374" sideWeight="0.7002188" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17891374" sideWeight="0.7002188" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -771,7 +775,8 @@
     <MESSAGE value="JSON support" />
     <MESSAGE value="JSON support&#10;" />
     <MESSAGE value="Renamed application for Google App Engine because of problems with Google App Engine." />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed application for Google App Engine because of problems with Google App Engine." />
+    <MESSAGE value="Renamed application for Google App Engine because of problems with Google App Engine.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed application for Google App Engine because of problems with Google App Engine.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -931,7 +936,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/appengine-web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="35" selection-start="565" selection-end="565" vertical-scroll-proportion="0.20293123" vertical-offset="0" max-vertical-offset="887">
+        <state line="4" column="14" selection-start="197" selection-end="197" vertical-scroll-proportion="0.06764374" vertical-offset="0" max-vertical-offset="887">
           <folding />
         </state>
       </provider>
