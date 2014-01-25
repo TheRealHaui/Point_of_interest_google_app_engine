@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_ase_poi_domain_PointOfInterest" object="${pointofinterest}" path="/pointofinterests" z="B3xtUkJ9z5aRcdGWfH2tok2+WQ4=">
+        <field:display field="name" id="s_com_ase_poi_domain_PointOfInterest_name" object="${pointofinterest}" z="SBRTad8wGwyya0HSkqR1pzZ3Hms="/>
+        <field:display field="latitude" id="s_com_ase_poi_domain_PointOfInterest_latitude" object="${pointofinterest}" z="RPxdsivJmnvBeT0Wf56BYiruuR4="/>
+        <field:display field="longitude" id="s_com_ase_poi_domain_PointOfInterest_longitude" object="${pointofinterest}" z="EAJ/R5NaSAN/hJCtFF2zloKDqvs="/>
+        <field:display field="creator" id="s_com_ase_poi_domain_PointOfInterest_creator" object="${pointofinterest}" z="H7ebozruxtK2ff0ya9dEOuljNcU="/>
+        <field:display field="description" id="s_com_ase_poi_domain_PointOfInterest_description" object="${pointofinterest}" z="Ty0Du4NPr3i2rM7vS1DEcrnWiEw="/>
+        <field:display field="category" id="s_com_ase_poi_domain_PointOfInterest_category" object="${pointofinterest}" z="N+91aIJCgXRM6oT6XJk4STYgdc8="/>
+    </page:show>
+</div>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_ase_poi_domain_PointOfInterest" modelAttribute="pointOfInterest" path="/pointofinterests" render="${empty dependencies}" z="8Y/YCyd5QDJrT66XcGGbECBt9dM=">
+        <field:input field="name" id="c_com_ase_poi_domain_PointOfInterest_name" required="true" z="T3ZDQabE+QgO0mVVEPJHIwVRR20="/>
+        <field:input field="latitude" id="c_com_ase_poi_domain_PointOfInterest_latitude" required="true" validationMessageCode="field_invalid_number" z="qHNT6kxnk2y17ixduVQ8bAk851o="/>
+        <field:input field="longitude" id="c_com_ase_poi_domain_PointOfInterest_longitude" required="true" validationMessageCode="field_invalid_number" z="7czim9QYdsoJjSFpNSS+K7NMQM0="/>
+        <field:input field="creator" id="c_com_ase_poi_domain_PointOfInterest_creator" required="true" z="7n5q48/s9iCGCXCtv0vlHbJOyYg="/>
+        <field:input field="description" id="c_com_ase_poi_domain_PointOfInterest_description" required="true" z="ZU85eAayFM/FJw6q1AHsbEMQz3M="/>
+        <field:input field="category" id="c_com_ase_poi_domain_PointOfInterest_category" required="true" z="ajlH2fEFYIvrfqeMGZfalsbCV2A="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_ase_poi_domain_PointOfInterest" render="${not empty dependencies}" z="iupY5/O2uCE+9vJDlgUhfok6uVM="/>
+</div>
