@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdd67b05-45f3-4a2c-bb5a-9f7f5121c1dd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ase/poi/domain/PointOfInterest.java" afterPath="$PROJECT_DIR$/src/main/java/com/ase/poi/domain/PointOfInterest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log.roo" afterPath="$PROJECT_DIR$/log.roo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="fdd67b05-45f3-4a2c-bb5a-9f7f5121c1dd" name="Default" comment="JSON support&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="poi.iws" />
@@ -80,19 +77,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PointOfInterestController.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PointOfInterestController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+            <state line="13" column="45" selection-start="562" selection-end="562" vertical-scroll-proportion="0.23037542" vertical-offset="0" max-vertical-offset="586">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PointOfInterestController_Roo_Controller_Json.aj" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PointOfInterestController_Roo_Controller_Json.aj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController_Roo_Controller_Json.aj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="60" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.33258173" vertical-offset="35" max-vertical-offset="1170">
+            <state line="60" column="60" selection-start="3169" selection-end="3169" vertical-scroll-proportion="0.0" vertical-offset="283" max-vertical-offset="1170">
               <folding />
             </state>
           </provider>
@@ -566,7 +563,7 @@
       <updated>1390670610345</updated>
       <workItem from="1390670612899" duration="814000" />
       <workItem from="1390672895336" duration="971000" />
-      <workItem from="1390673883126" duration="7183000" />
+      <workItem from="1390673883126" duration="7326000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1390670750231</created>
@@ -592,11 +589,15 @@
       <created>1390680644394</created>
       <updated>1390680644394</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="JSON support">
+      <created>1390681284790</created>
+      <updated>1390681284790</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8968000" />
+    <option name="totallyTimeSpent" value="9111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1055" extended-state="6" />
@@ -624,7 +625,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17891374" sideWeight="0.29978117" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -653,7 +654,8 @@
     <MESSAGE value="3.2.6. Spring" />
     <MESSAGE value="Different image and text pointing to authoring team" />
     <MESSAGE value="Different image and text pointing to authoring team&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Different image and text pointing to authoring team&#10;" />
+    <MESSAGE value="JSON support" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSON support" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -799,16 +801,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController_Roo_Controller_Json.aj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+        <state line="60" column="60" selection-start="3169" selection-end="3169" vertical-scroll-proportion="0.0" vertical-offset="283" max-vertical-offset="1170">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController_Roo_Controller_Json.aj">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="60" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.33258173" vertical-offset="35" max-vertical-offset="1170">
+        <state line="13" column="45" selection-start="562" selection-end="562" vertical-scroll-proportion="0.23037542" vertical-offset="0" max-vertical-offset="586">
           <folding />
         </state>
       </provider>
