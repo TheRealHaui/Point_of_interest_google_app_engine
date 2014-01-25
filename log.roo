@@ -13,3 +13,6 @@ exit
 // Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-01-25 19:58:22
 web mvc setup
 web mvc all --package ~.web
+web mvc json all
+json all
+web mvc json all
