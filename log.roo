@@ -8,3 +8,8 @@ field number --type java.lang.Double --fieldName longitude --notNull
 field string --fieldName creator --notNull 
 field string --fieldName description --notNull 
 field string --fieldName category --notNull 
+exit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2014-01-25 18:34:45
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-01-25 19:58:22
+web mvc setup
+web mvc all --package ~.web
