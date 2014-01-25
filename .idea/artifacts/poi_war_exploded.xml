@@ -1,0 +1,65 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="poi:war exploded">
+    <output-path>$PROJECT_DIR$/target/poi-0.1.0.BUILD-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="poi/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="poi" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.5" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.7.2" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.7.2" />
+          <element id="library" level="project" name="Maven: net.sf.flexjson:flexjson:2.1" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.5" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:3.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:3.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:3.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:3.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aspects:3.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: com.google.appengine.orm:datanucleus-appengine:2.1.1" />
+          <element id="library" level="project" name="Maven: com.google.appengine:appengine-api-1.0-sdk:1.7.4" />
+          <element id="library" level="project" name="Maven: org.datanucleus:datanucleus-core:3.1.3" />
+          <element id="library" level="project" name="Maven: org.datanucleus:datanucleus-enhancer:3.1.1" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm:4.0" />
+          <element id="library" level="project" name="Maven: javax.jdo:jdo-api:3.0" />
+          <element id="library" level="project" name="Maven: javax.transaction:jta:1.1" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jpa_2.0_spec:1.1" />
+          <element id="library" level="project" name="Maven: org.datanucleus:datanucleus-rdbms:3.1.3" />
+          <element id="library" level="project" name="Maven: org.datanucleus:datanucleus-api-jpa:3.1.3" />
+          <element id="library" level="project" name="Maven: org.datanucleus:datanucleus-api-jdo:3.1.3" />
+          <element id="library" level="project" name="Maven: javax.transaction:transaction-api:1.1" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:4.3.1.Final" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:1.0.0.GA" />
+          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.1.0.CR2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.6" />
+          <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:3.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.webflow:spring-js-resources:2.2.1.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-digester:commons-digester:2.1" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.3" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.2.2" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp.jstl:jstl-api:1.2" />
+          <element id="library" level="project" name="Maven: joda-time:joda-time:1.6" />
+          <element id="library" level="project" name="Maven: org.apache.tiles:tiles-jsp:2.2.2" />
+          <element id="library" level="project" name="Maven: org.apache.tiles:tiles-servlet:2.2.2" />
+          <element id="library" level="project" name="Maven: org.apache.tiles:tiles-core:2.2.2" />
+          <element id="library" level="project" name="Maven: org.apache.tiles:tiles-api:2.2.2" />
+          <element id="library" level="project" name="Maven: org.apache.tiles:tiles-template:2.2.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
