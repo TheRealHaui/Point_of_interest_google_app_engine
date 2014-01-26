@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
-    <application>ase-poi2</application>
-    <version>2</version>
+    <application>ase-poi</application>
+    <version>12</version>
     <sessions-enabled>true</sessions-enabled>
     <threadsafe>true</threadsafe>
     <!-- Configure java.util.logging -->
