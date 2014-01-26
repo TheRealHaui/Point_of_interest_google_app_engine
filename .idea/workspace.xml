@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdd67b05-45f3-4a2c-bb5a-9f7f5121c1dd" name="Default" comment="Ignore idea workspace.xml file&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.gitignore" />
+    <list default="true" id="fdd67b05-45f3-4a2c-bb5a-9f7f5121c1dd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="poi.iws" />
@@ -393,20 +392,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Point_of_interest_google_app_engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -725,7 +710,7 @@
       <workItem from="1390673883126" duration="7853000" />
       <workItem from="1390682031920" duration="3750000" />
       <workItem from="1390686018225" duration="373000" />
-      <workItem from="1390755520748" duration="1373000" />
+      <workItem from="1390755520748" duration="1503000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1390670750231</created>
@@ -787,11 +772,15 @@
       <created>1390756447369</created>
       <updated>1390756447369</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Ignore idea workspace.xml file&#10;">
+      <created>1390756903876</created>
+      <updated>1390756903876</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15134000" />
+    <option name="totallyTimeSpent" value="15264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1071" extended-state="6" />
@@ -855,7 +844,8 @@
     <MESSAGE value="Renamed application for Google App Engine because of problems with Google App Engine.&#10;" />
     <MESSAGE value="Rename of application for Google App Engine because of problems with Google App Engine.&#10;" />
     <MESSAGE value="Ignore idea workspace.xml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ignore idea workspace.xml file" />
+    <MESSAGE value="Ignore idea workspace.xml file&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ignore idea workspace.xml file&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1062,6 +1052,27 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-6.9395866" vertical-offset="4365" max-vertical-offset="17505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="642">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__javax_jdo_jdo_api_3_0.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="642">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/scopes/scope_settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="642">
           <folding />
         </state>
       </provider>
