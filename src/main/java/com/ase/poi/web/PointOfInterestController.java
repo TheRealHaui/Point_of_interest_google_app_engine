@@ -36,23 +36,49 @@ public class PointOfInterestController {
 
     @RequestMapping(value = "/{id}", method = RequestMethod.PUT, headers = "Accept=application/json")
     public ResponseEntity<String> updateFromJson(@RequestBody String json, @PathVariable("id") Long id) {
-        HttpHeaders headers = new HttpHeaders();
-        headers.add("Content-Type", "application/json");
-        PointOfInterest pointOfInterest = PointOfInterest.fromJsonToPointOfInterest(json);
-        if (pointOfInterest.merge() == null) {
-            return new ResponseEntity<String>(headers, HttpStatus.NOT_FOUND);
-        }
-        return new ResponseEntity<String>(headers, HttpStatus.OK);
+
+
+           HttpHeaders headers = new HttpHeaders();
+           headers.add("Content-Type", "application/json");
+
+       try{
+
+           PointOfInterest pointOfInterest = PointOfInterest.fromJsonToPointOfInterest(json);
+
+            if (pointOfInterest.merge() == null) {
+               return new ResponseEntity<String>(headers, HttpStatus.NOT_FOUND);
+           }
+
+           return new ResponseEntity<String>(headers, HttpStatus.OK);
+
+
+       }catch (Exception e)
+       {
+           return new ResponseEntity<String>(e.toString(),headers, HttpStatus.BAD_REQUEST);
+       }
+
     }
 
 
     @RequestMapping(value = "/jsonArray", method = RequestMethod.POST, headers = "Accept=application/json")
     public ResponseEntity<String> createFromJsonArray(@RequestBody String json) {
-        for (PointOfInterest pointOfInterest: PointOfInterest.fromJsonArrayToPointOfInterests(json)) {
-            pointOfInterest.persist();
-        }
+
         HttpHeaders headers = new HttpHeaders();
-        headers.add("Content-Type", "application/json");
+
+        try{
+
+           for (PointOfInterest pointOfInterest: PointOfInterest.fromJsonArrayToPointOfInterests(json)) {
+               pointOfInterest.persist();
+           }
+
+           headers.add("Content-Type", "application/json");
+
+       }catch (Exception e)
+       {
+           return new ResponseEntity<String>(e.toString(),headers, HttpStatus.BAD_REQUEST);
+       }
+
+
         return new ResponseEntity<String>(headers, HttpStatus.CREATED);
     }
 
@@ -79,14 +105,14 @@ public class PointOfInterestController {
     }
 
 
-    @RequestMapping(headers = "Accept=application/json")
+    @RequestMapping(value = "/", headers = "Accept=application/json")
     @ResponseBody
     public ResponseEntity<String> listJson(@RequestParam(value="name",required = false)String name,
                                            @RequestParam(value="description",required = false)String description,
                                            @RequestParam(value="category",required = false)String category,
                                            @RequestParam(value="creator",required = false)String creator,
                                            @RequestParam(value="latitude",required = false)String latitude,
-                                           @RequestParam(value="longitude",required = false)String longitude) {
+                                           @RequestParam(value="longitude",required = false)String longitude ) {
 
         HttpHeaders headers = new HttpHeaders();
         List<PointOfInterest> result;
@@ -105,7 +131,20 @@ public class PointOfInterestController {
             Iterator<PointOfInterest> iter = result.iterator();
             PointOfInterest poi;
 
+
             while (iter.hasNext()){
+                /*
+                System.out.println(111);
+                if ( ( name != null | name.isEmpty()  )
+                        &( description != null | description.isEmpty()  )
+                        &( category != null | category.isEmpty()  )
+                        &( creator != null | creator.isEmpty()  )
+                        &( latitude != null | latitude.isEmpty()  )
+                        &( longitude != null | longitude.isEmpty() ) ){
+                    System.out.println(222);
+                    break;
+                }
+                */
 
                 poi = iter.next();
 
@@ -130,6 +169,32 @@ public class PointOfInterestController {
             return new ResponseEntity<String>(PointOfInterest.toJsonArray(result), headers, HttpStatus.OK);
 
     }
+
+
+
+    @RequestMapping(headers = "Accept=application/json")
+    @ResponseBody
+    public ResponseEntity<String> listJson() {
+
+        HttpHeaders headers = new HttpHeaders();
+        List<PointOfInterest> queryResult;
+
+        try{
+
+            headers.add("Content-Type", "application/json; charset=utf-8");
+            queryResult = PointOfInterest.findAllPointOfInterests();
+
+        }catch (Exception e)
+        {
+            Logger.getLogger(PointOfInterest.class.getName()).severe(e.toString());
+            return new ResponseEntity<String>(e.toString(),headers, HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+
+        return new ResponseEntity<String>(PointOfInterest.toJsonArray(queryResult), headers, HttpStatus.OK);
+
+    }
+
+
 
 
     @RequestMapping(value = "/{id}", method = RequestMethod.GET, headers = "Accept=application/json")
