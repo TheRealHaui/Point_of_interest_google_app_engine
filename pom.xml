@@ -63,6 +63,18 @@
         </pluginRepository>
     </pluginRepositories>
     <dependencies>
+
+
+        <!-- Adding url rewrite capability.
+            http://www.tuckey.org/urlrewrite/
+        -->
+        <dependency>
+            <groupId>org.tuckey</groupId>
+            <artifactId>urlrewritefilter</artifactId>
+            <version>4.0.3</version>
+        </dependency>
+
+
         <!-- General dependencies for standard applications -->
         <dependency>
             <groupId>junit</groupId>

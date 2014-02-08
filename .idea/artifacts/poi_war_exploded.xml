@@ -8,6 +8,7 @@
           <element id="module-output" name="poi" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.tuckey:urlrewritefilter:4.0.3" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.5" />
