@@ -40,4 +40,18 @@ public class PointOfInterest {
      */
     @NotNull
     private String category;
+
+    public PointOfInterest(PointOfInterest poi) {
+        this.setName(poi.getName());
+        this.setLatitude(poi.getLatitude());
+        this.setLongitude(poi.getLongitude());
+        this.setCreator(poi.getCreator());
+        this.setDescription(poi.getDescription());
+        this.setCategory(poi.getCategory());
+        this.setId(poi.getId());
+    }
+
+    public PointOfInterest() {
+
+    }
 }

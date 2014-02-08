@@ -21,6 +21,15 @@
     </rule>
 
 
+    <rule>
+        <note>
+        </note>
+        <from>^/resources/poi/$</from>
+        <to>/pointofinterests/</to>
+    </rule>
+
+
+
 
 
     <!--

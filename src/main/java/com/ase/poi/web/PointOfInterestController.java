@@ -8,7 +8,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.roo.addon.web.mvc.controller.json.RooWebJson;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
+import java.util.logging.Logger;
 
 @RequestMapping("/pointofinterests")
 @Controller
@@ -77,11 +81,54 @@ public class PointOfInterestController {
 
     @RequestMapping(headers = "Accept=application/json")
     @ResponseBody
-    public ResponseEntity<String> listJson() {
+    public ResponseEntity<String> listJson(@RequestParam(value="name",required = false)String name,
+                                           @RequestParam(value="description",required = false)String description,
+                                           @RequestParam(value="category",required = false)String category,
+                                           @RequestParam(value="creator",required = false)String creator,
+                                           @RequestParam(value="latitude",required = false)String latitude,
+                                           @RequestParam(value="longitude",required = false)String longitude) {
+
         HttpHeaders headers = new HttpHeaders();
-        headers.add("Content-Type", "application/json; charset=utf-8");
-        List<PointOfInterest> result = PointOfInterest.findAllPointOfInterests();
-        return new ResponseEntity<String>(PointOfInterest.toJsonArray(result), headers, HttpStatus.OK);
+        List<PointOfInterest> result;
+
+        try{
+
+            headers.add("Content-Type", "application/json; charset=utf-8");
+            List<PointOfInterest> queryResult = PointOfInterest.findAllPointOfInterests();
+
+            result = new ArrayList<PointOfInterest>(queryResult.size());
+
+            for (PointOfInterest poi : queryResult) {
+                result.add(new PointOfInterest(poi));
+            }
+
+            Iterator<PointOfInterest> iter = result.iterator();
+            PointOfInterest poi;
+
+            while (iter.hasNext()){
+
+                poi = iter.next();
+
+                if ( ( name != "" && !poi.getName().equalsIgnoreCase(name) )
+                        ||( description != "" && !poi.getDescription().equalsIgnoreCase(description) )
+                        ||( category != "" && !poi.getCategory().equalsIgnoreCase(category) )
+                        ||( creator != "" && !poi.getCreator().equalsIgnoreCase(creator) )
+                        ||( latitude != "" && !poi.getLatitude().toString().equalsIgnoreCase(latitude) )
+                        ||( longitude != "" && !poi.getLongitude().toString().equalsIgnoreCase(longitude) ) ){
+                    iter.remove();
+                }
+
+            }
+
+
+        }catch (Exception e)
+        {
+            Logger.getLogger(PointOfInterest.class.getName()).severe(e.toString());
+            return new ResponseEntity<String>(e.toString(),headers, HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+
+            return new ResponseEntity<String>(PointOfInterest.toJsonArray(result), headers, HttpStatus.OK);
+
     }
 
 
