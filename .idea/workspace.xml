@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdd67b05-45f3-4a2c-bb5a-9f7f5121c1dd" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController_Roo_Controller_Json.aj" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController_Roo_Controller.aj" afterPath="$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController_Roo_Controller.aj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appengine-web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appengine-web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/logging.properties" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/logging.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="poi.iws" />
@@ -72,7 +75,7 @@
       <file leaf-file-name="PointOfInterestController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="12" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+            <state line="85" column="22" selection-start="3533" selection-end="3533" vertical-scroll-proportion="0.0" vertical-offset="703" max-vertical-offset="1590">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,14 +83,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PointOfInterestController_Roo_Controller_Json.aj" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController_Roo_Controller_Json.aj">
+      <file leaf-file-name="appengine-web.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/appengine-web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="29" selection-start="2255" selection-end="2255" vertical-scroll-proportion="0.7935154" vertical-offset="180" max-vertical-offset="1335">
-              <folding>
-                <element signature="e#0#4292#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="3" column="15" selection-start="172" selection-end="172" vertical-scroll-proportion="0.050732806" vertical-offset="0" max-vertical-offset="887">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PointOfInterest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/domain/PointOfInterest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="11" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,16 +104,7 @@
       <file leaf-file-name="PointOfInterest_Roo_Jpa_ActiveRecord.aj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/domain/PointOfInterest_Roo_Jpa_ActiveRecord.aj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="32" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1230">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logging.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/logging.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="12" column="18" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
               <folding />
             </state>
           </provider>
@@ -129,14 +129,15 @@
         <option value="$PROJECT_DIR$/src/main/webapp/styles/standard.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/ase/poi/domain/PointOfInterest.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/appengine-web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController_Roo_Controller_Json.aj" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/logging.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController_Roo_Controller.aj" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/logging.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/appengine-web.xml" />
       </list>
     </option>
   </component>
@@ -744,7 +745,7 @@
       <workItem from="1391179478289" duration="1489000" />
       <workItem from="1391188317674" duration="968000" />
       <workItem from="1391806393773" duration="108000" />
-      <workItem from="1391872668078" duration="11473000" />
+      <workItem from="1391872668078" duration="13264000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1390670750231</created>
@@ -822,11 +823,15 @@
       <created>1391880766120</created>
       <updated>1391880766120</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Minor changes">
+      <created>1391885646705</created>
+      <updated>1391885646705</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32159000" />
+    <option name="totallyTimeSpent" value="33950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1071" extended-state="6" />
@@ -854,7 +859,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21373557" sideWeight="0.36005434" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21352503" sideWeight="0.31619257" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -894,7 +899,8 @@
     <MESSAGE value="Solve **** problem that Google App Engine chrashes.&#10;Add and set jpa-provider attribute in persistence.xml to ressource_local." />
     <MESSAGE value="Url redirct with tuckey added" />
     <MESSAGE value="Comment for problem with redirect added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comment for problem with redirect added" />
+    <MESSAGE value="Minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -904,16 +910,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController_Roo_Controller_Json.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="75" selection-start="4292" selection-end="4292" vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1170">
-          <folding>
-            <element signature="e#0#4292#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="23" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="285">
@@ -936,16 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="32" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="270">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController_Roo_Controller_Json.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="60" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1335">
-          <folding>
-            <element signature="e#0#4292#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1107,23 +1093,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/domain/PointOfInterest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/web/ApplicationConversionServiceFactoryBean_Roo_ConversionService.aj">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="18" selection-start="499" selection-end="499" vertical-scroll-proportion="0.15706806" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/appengine-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="591" selection-end="591" vertical-scroll-proportion="0.3846154" vertical-offset="0" max-vertical-offset="468">
           <folding />
         </state>
       </provider>
@@ -1164,32 +1136,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="12" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController_Roo_Controller.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="9" selection-start="2053" selection-end="2053" vertical-scroll-proportion="0.49771166" vertical-offset="0" max-vertical-offset="1425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="31" selection-start="1092" selection-end="1092" vertical-scroll-proportion="-0.892922" vertical-offset="912" max-vertical-offset="1710">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/logging.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
@@ -1201,13 +1150,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/domain/PointOfInterest_Roo_Jpa_ActiveRecord.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="32" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1230">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="76" selection-start="4360" selection-end="4360" vertical-scroll-proportion="0.7810219" vertical-offset="382" max-vertical-offset="945">
@@ -1215,13 +1157,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController_Roo_Controller_Json.aj">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController_Roo_Controller.aj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="29" selection-start="2255" selection-end="2255" vertical-scroll-proportion="0.7935154" vertical-offset="180" max-vertical-offset="1335">
+        <state line="13" column="52" selection-start="611" selection-end="611" vertical-scroll-proportion="0.31413612" vertical-offset="0" max-vertical-offset="1605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/logging.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="449" selection-end="456" vertical-scroll-proportion="0.20293123" vertical-offset="0" max-vertical-offset="887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/domain/PointOfInterest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="11" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/domain/PointOfInterest_Roo_Jpa_ActiveRecord.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="18" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ase/poi/web/PointOfInterestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="22" selection-start="3533" selection-end="3533" vertical-scroll-proportion="0.0" vertical-offset="703" max-vertical-offset="1590">
           <folding>
-            <element signature="e#0#4292#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/appengine-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="15" selection-start="172" selection-end="172" vertical-scroll-proportion="0.050732806" vertical-offset="0" max-vertical-offset="887">
+          <folding />
         </state>
       </provider>
     </entry>

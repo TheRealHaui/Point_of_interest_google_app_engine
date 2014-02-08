@@ -29,20 +29,20 @@ privileged aspect PointOfInterestController_Roo_Controller {
         pointOfInterest.persist();
         return "redirect:/pointofinterests/" + encodeUrlPathSegment(pointOfInterest.getId().toString(), httpServletRequest);
     }
-    
+
     @RequestMapping(params = "form", produces = "text/html")
     public String PointOfInterestController.createForm(Model uiModel) {
         populateEditForm(uiModel, new PointOfInterest());
         return "pointofinterests/create";
     }
-    
+
     @RequestMapping(value = "/{id}", produces = "text/html")
     public String PointOfInterestController.show(@PathVariable("id") Long id, Model uiModel) {
         uiModel.addAttribute("pointofinterest", PointOfInterest.findPointOfInterest(id));
         uiModel.addAttribute("itemId", id);
         return "pointofinterests/show";
     }
-    
+
     @RequestMapping(produces = "text/html")
     public String PointOfInterestController.list(@RequestParam(value = "page", required = false) Integer page, @RequestParam(value = "size", required = false) Integer size, Model uiModel) {
         if (page != null || size != null) {
@@ -56,7 +56,7 @@ privileged aspect PointOfInterestController_Roo_Controller {
         }
         return "pointofinterests/list";
     }
-    
+
     @RequestMapping(method = RequestMethod.PUT, produces = "text/html")
     public String PointOfInterestController.update(@Valid PointOfInterest pointOfInterest, BindingResult bindingResult, Model uiModel, HttpServletRequest httpServletRequest) {
         if (bindingResult.hasErrors()) {
@@ -67,13 +67,13 @@ privileged aspect PointOfInterestController_Roo_Controller {
         pointOfInterest.merge();
         return "redirect:/pointofinterests/" + encodeUrlPathSegment(pointOfInterest.getId().toString(), httpServletRequest);
     }
-    
+
     @RequestMapping(value = "/{id}", params = "form", produces = "text/html")
     public String PointOfInterestController.updateForm(@PathVariable("id") Long id, Model uiModel) {
         populateEditForm(uiModel, PointOfInterest.findPointOfInterest(id));
         return "pointofinterests/update";
     }
-    
+
     @RequestMapping(value = "/{id}", method = RequestMethod.DELETE, produces = "text/html")
     public String PointOfInterestController.delete(@PathVariable("id") Long id, @RequestParam(value = "page", required = false) Integer page, @RequestParam(value = "size", required = false) Integer size, Model uiModel) {
         PointOfInterest pointOfInterest = PointOfInterest.findPointOfInterest(id);
@@ -83,11 +83,11 @@ privileged aspect PointOfInterestController_Roo_Controller {
         uiModel.addAttribute("size", (size == null) ? "10" : size.toString());
         return "redirect:/pointofinterests";
     }
-    
+
     void PointOfInterestController.populateEditForm(Model uiModel, PointOfInterest pointOfInterest) {
         uiModel.addAttribute("pointOfInterest", pointOfInterest);
     }
-    
+
     String PointOfInterestController.encodeUrlPathSegment(String pathSegment, HttpServletRequest httpServletRequest) {
         String enc = httpServletRequest.getCharacterEncoding();
         if (enc == null) {
@@ -98,5 +98,5 @@ privileged aspect PointOfInterestController_Roo_Controller {
         } catch (UnsupportedEncodingException uee) {}
         return pathSegment;
     }
-    
+
 }
