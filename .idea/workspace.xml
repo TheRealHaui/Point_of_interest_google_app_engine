@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdd67b05-45f3-4a2c-bb5a-9f7f5121c1dd" name="Default" comment="Solve **** problem that Google App Engine chrashes.&#10;Add and set jpa-provider attribute in persistence.xml to ressource_local.&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tuckey_urlrewritefilter_4_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poi.iml" afterPath="$PROJECT_DIR$/poi.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/poi_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/poi_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+    <list default="true" id="fdd67b05-45f3-4a2c-bb5a-9f7f5121c1dd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="poi.iws" />
@@ -104,7 +99,7 @@
       <file leaf-file-name="urlrewrite.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="58" selection-start="658" selection-end="658" vertical-scroll-proportion="0.8191126" vertical-offset="0" max-vertical-offset="1740">
+            <state line="41" column="7" selection-start="931" selection-end="931" vertical-scroll-proportion="0.7679181" vertical-offset="165" max-vertical-offset="1845">
               <folding />
             </state>
           </provider>
@@ -798,7 +793,7 @@
       <workItem from="1391179478289" duration="1489000" />
       <workItem from="1391188317674" duration="968000" />
       <workItem from="1391806393773" duration="108000" />
-      <workItem from="1391872668078" duration="6625000" />
+      <workItem from="1391872668078" duration="6805000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1390670750231</created>
@@ -868,11 +863,15 @@
       <created>1390762768791</created>
       <updated>1390762768791</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Url redirct with tuckey added">
+      <created>1391880626458</created>
+      <updated>1391880626458</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27311000" />
+    <option name="totallyTimeSpent" value="27491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1071" extended-state="6" />
@@ -938,7 +937,8 @@
     <MESSAGE value="Ignore idea workspace.xml file" />
     <MESSAGE value="Ignore idea workspace.xml file&#10;" />
     <MESSAGE value="Solve **** problem that Google App Engine chrashes.&#10;Add and set jpa-provider attribute in persistence.xml to ressource_local." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve **** problem that Google App Engine chrashes.&#10;Add and set jpa-provider attribute in persistence.xml to ressource_local." />
+    <MESSAGE value="Url redirct with tuckey added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Url redirct with tuckey added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1259,7 +1259,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="58" selection-start="658" selection-end="658" vertical-scroll-proportion="0.8191126" vertical-offset="0" max-vertical-offset="1740">
+        <state line="41" column="7" selection-start="931" selection-end="931" vertical-scroll-proportion="0.7679181" vertical-offset="165" max-vertical-offset="1845">
           <folding />
         </state>
       </provider>

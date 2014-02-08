@@ -33,6 +33,13 @@
         <to>/resources/poi</to>
     </outbound-rule>
 
+    <!-- Redirect
+         from http://localhost:8080/pointofinterests/1?form
+         to http://localhost:8080/resources/poi/1?form
+         does not work.
+         But on one point there must be an end towards time
+         for the exercise
+    -->
 
     <outbound-rule>
         <note>
