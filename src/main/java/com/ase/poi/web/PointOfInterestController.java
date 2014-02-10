@@ -45,6 +45,8 @@ public class PointOfInterestController {
 
            PointOfInterest pointOfInterest = PointOfInterest.fromJsonToPointOfInterest(json);
 
+           pointOfInterest.setId(id);
+
             if (pointOfInterest.merge() == null) {
                return new ResponseEntity<String>(headers, HttpStatus.NOT_FOUND);
            }
