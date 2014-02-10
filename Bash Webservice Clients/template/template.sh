@@ -3,9 +3,9 @@
 clear
 
 
-#baseUrl="http://ase-poi.appspot.com/"
+baseUrl="https://ase-poi.appspot.com/"
 
-baseUrl="http://localhost:8080/"
+#baseUrl="http://localhost:8080/"
 #todo
 basePath="resources/poi"
 #basePath="pointofinterests"
